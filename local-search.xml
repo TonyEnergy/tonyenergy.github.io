@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title></title>
+    <link href="/2025/08/15/Semiconductor%20learning/"/>
+    <url>/2025/08/15/Semiconductor%20learning/</url>
+    
+    <content type="html"><![CDATA[<h2 id="半导体"><a href="#半导体" class="headerlink" title="半导体"></a>半导体</h2><p>半导体就是⼀种介于导体和绝缘体之间的材料。它有时候导电，有时候不导电，具体表现取决于外部条件（⽐如温度、光照、电压等）。 </p><ul><li>导体（⽐如铜、铝）：电流很容易通过</li><li>绝缘体（⽐如橡胶、塑料）：电流⼏乎⽆法通过</li><li>半导体（⽐如硅、锗）：导电性能可控</li></ul><h3 id="硅"><a href="#硅" class="headerlink" title="硅"></a>硅</h3><p>硅原子的电子排布为：<strong>1s² 2s² 2p⁶ 3s² 3p²</strong>，总共有三个能级，最靠外层的电子，距离原子核最远，受到的束缚最小，硅的最外层有 <strong>4个价电子</strong>，3s²3p²，S轨道有两个，P轨道有两个</p><h3 id="S轨道和P轨道"><a href="#S轨道和P轨道" class="headerlink" title="S轨道和P轨道"></a>S轨道和P轨道</h3><h5 id="S轨道："><a href="#S轨道：" class="headerlink" title="S轨道："></a>S轨道：</h5><ul><li>最多可以容纳2个电子，从第1层（第一能级）开始有，形状是球形，每一层能量中最多有一个S轨道</li></ul><h5 id="P轨道："><a href="#P轨道：" class="headerlink" title="P轨道："></a>P轨道：</h5><ul><li>最多可以容纳6个电子，从第2层（第二能级）才开始有，形状是哑铃型，每一层能量中有三个P轨道px，py，pz</li></ul><h3 id="能带："><a href="#能带：" class="headerlink" title="能带："></a>能带：</h3><p>能带分为价带和导带</p><h5 id="价带："><a href="#价带：" class="headerlink" title="价带："></a>价带：</h5><ul><li><strong>价电子所在的能级</strong>扩展出来的带，对于硅来说也就是第三能级的4个价电子扩展出来的带，电子不能自由移动，不能导电</li></ul><h5 id="导带："><a href="#导带：" class="headerlink" title="导带："></a>导带：</h5><ul><li>比价带高一级，是<strong>电子跳脱后可以自由活动的空间</strong>，在导带中的电子<strong>不再受共价键约束</strong>，可以自由移动；</li></ul><h3 id="三种半导体"><a href="#三种半导体" class="headerlink" title="三种半导体"></a>三种半导体</h3><ul><li><strong>本征半导体</strong>：<ul><li>由硅组成，硅原子有14个质子，14个电子，3个电子层，最外层有4个电子。每个硅原子与其余4个硅原子结合形成共价键，共价键通过共享电子使每个硅原子在最外层“拥有”8个电子。这种结构形成了稳定的晶体格子</li><li>共价键在高温和光照下不稳定，会有部分断裂。当共价键断裂后，共价键中的电⼦会“逃出”共价键，成为⾃由电⼦，当电⼦离开共价键时，原来的位置就留下了⼀个空位，这个空位就是空⽳。此时硅晶体此时变成了导体，硅能够从绝缘体变成 导体，是其材料的⾃身的物理特性，我们将这类材料称为本征半导体。</li></ul></li><li></li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>OCPP 1.6 Documentation Collection</title>
     <link href="/2024/09/18/ocpp-1.6_edition_2/"/>
     <url>/2024/09/18/ocpp-1.6_edition_2/</url>
