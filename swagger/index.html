@@ -1,0 +1,342 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=dark>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/circle-flags--lang-zh.png">
+  <link rel="icon" href="/img/circle-flags--lang-zh.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Tony">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="This page is encrypted. Please enter the password to view.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Swagger API Documentation">
+<meta property="og:url" content="https://tonyenergy.github.io/swagger/index.html">
+<meta property="og:site_name" content="Tony Energy">
+<meta property="og:description" content="This page is encrypted. Please enter the password to view.">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2025-04-12T16:00:00.000Z">
+<meta property="article:modified_time" content="2025-10-21T06:34:39.656Z">
+<meta property="article:author" content="Tony">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>Tony Energy</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"tonyenergy.github.io","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 40vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>🔋TonyEnergy⚡</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-speakernotes"></i>
+                <span>Introduction</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Archives</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/ocpp/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>ocpp platform</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/swagger/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Swagger</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/backgroud.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="Swagger API Documentation"></span>
+          
+        </div>
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div id="board"
+          >
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+<article class="page-content">
+  <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="2f85a244ea238c3d2e7b8ab34474abbde76cc860524d3ceedf7bc5c68cbb69ee">13c8c0f444be40453d68590226fcfde58ab142b24f9b408c519c6c0667c1779c42d7361fcdb08f055316be8e93cdfca5cb48fffeb40fed39c31bf336dfd97496633b1a9467a630897f296f6e11ad8bdc05b328698541da7e29849020ec06b2fff8bd1d63c4b8142b74457f22e04d47248ee8ca1cc4225aa4dcbbeb620e6978966bcfb4d2e6b6b074e79a1d7455aa596cef33ad9a01015ba18d7d7898098435f56f6264ee0db109a752c6f73cbf8d97a0c0c2e31cb3037a82b9192e83629010f5767c3fc061717985d647af2fcd193373ec9562ea3171128131a3e027a951b724bbc0f78407823c689ef436846e34bb12eba978583860f0c07652f1e6cb83b10eafef04eb9ddbffa909057604109ba64656fb7bbf73878b68b74cd481d7a669bdef4caa7d94f48bd2de1d3b5ff1a80b423216f960ebb08a0e88a16bbdbbeb933c1fbd17f84e2b61739fbf671e4822c8cb7c0411247136fc74c3a393ad7632bd96094a1a36e947c654dc2866fbddae031e7339006bf57ab0173d1705f98edfd627bc21d71c88b6db41faf245fe080f4c3951f0e09b6f2e5b1b2a5e69c48a3b10901fc3ffc65680c235dee6e1b256290234922f1110876c1f8da4deb41d457c5386bbfd2b597482a828133eee973f383e178f653e125f3ec98c8aa1de67dc129466135e7be4b847600670b1e713a386e106d38bd9f339574685a96dfbdd8d14bdc89dda42963011d89fd1c41ef782cb629af39d31cea0071e67c27bcc86c46668ba64206983b2ed05d927ee97f3a83b0c875bdd214d1f182d1269edd2c3d9b70f37309d31ff25274207dae8bcba20368b7afc3eb5553e2bf258b3eb614ee759aafd6530d14e4cf0952fdeaa019d33215d4d601c5deb46eea4348a63a1c04d6482c25114c1265a49924ffe9d25bb20e195c237b481b8260f71c64ba211c78b6e12367bc2fa12ceb716bf5696f8028f18c3f4c4b89a0bdfdda8aa5ae67b6a9fd24bd75b07afb37936ef8d03b3eb2c020468f93baabbe55f52dd84747f99213994b609cd81502862525b30364b7d6746dc97c53f8315cddf3f7d8a860827831c2e255c96967cf9226bbbef9ca223c223fb0de76731bff669d4993c58743454b85cf6ecbc0073193e2d74e4b554344b40ae746edff695ed2cc3c2d47a18e3187ae82a9f593787d8351abf73057152ab01cb45a22667e2cb084e95948d139f5ab9e420de6c5910e1c294d1b0302dcaf74b7068330885d5c7215544d99305da3622d16c28720bf39d809abec0052abda0e52d58c2c4d3d38463257ea21de3e50913f17257894dac8a17ccfa3fb773c2f6a6fc3d332d5baeed0e501ebe270471270795c574d7afe6588ae944f813ecf63dc71d9f7721ec17afd1d2434d781855de94d7cdbfcc5066a701ad42811982e93b964a1ca977a7f6406d223213759fda5c0dbf628fb687179a25c5dc0224bbb56e0e4e3e62311c70c7fef6ad0b2f9257fa37bc20e6c69441ca4bb3fbb64a4eecb5dc0f1d93be5dcef852faa76f21089c7f80f63c616a3e95f813410cf4e5970f310964440384571683d1edad46124696b11c961e42202109c22cede8317c0c5e9d06b071837a5694d86708fa9035ad438161a787424182f0b982f8e1b4cb90312a62f48f274b5bfd31968f33833f32e6d0646271d2efb3f0cd2f8a205050e79140e1f839846f7fdf12a656d94a72e00039ff60b014b6adbd0744168b6e78dd048afc00bc1fb7a2d1ce42aaef8d434f96587d2d647b7253a611998d1815ce2cccbbe0bd3242a034a96ea07825ae3c36c4b0500f28ec39e6e82950cc8b0284de0a054ba324dca336af8c86f8fd82811b111fbffbd2ae4aa9540440303bb345dc168457d1789e21c3637278adc9e79334f045fd40675e5f4783264a75c78139faae0c2f471abe74a4ae1ad819da6424debd120a4ba2c91609d7da04997b09da811dd104e052dd93ce33a99eaa2652c2628b214a435b88620eaa7ce327b5135dccfe20f4bcda42b469a58fff22238bd1bca4528cb639ff91ab817841c438fbb1d01a90ce20ba4a39a4ed78ea5f9a2dfa3ea61e42ef231536d103ae8de315aecab10e8a3552de0ae0d7c6422f751f2d2c50479fe235df7174260e7f8f2cc8df243e78394093f46854b7c9a02618c7124756a810b4804d6e7a7b654082af169669f1534bb1348d796d529c79f9d8c79fdc1691b02b75524ef2c446ccf139336c2d0c192b153a294152ac762d410f31147c0d1209fbda0d34bbe497809d7fd486c2afca3de824d257206ba6377d1fc91d49b6d5de8888742fb058d2c72e64ddf77ce7e3b5e7f2f55fde12fcf66de06698f738ded82b18c6c37e9e4639abc9cfb82dc166ba0e6277dcec01b22f9c4d506aa5b80e9e981be23dd30208a9457670aeae9533c90a7efe98628cbe078fb7b921eb149a92d54bd4a65934630ba954ff71bd6a84c45d837b69497a87ec7c11d35258965c66f8506b6bc2bf2bf078472a7682ec5eaaa6f24c8f8a0bea92dbc2798d54adde2dd7674a1c3243885a8e9c5807c9018ae944407552f3164cc5d5a0eee14f3748a320288496bd370e466f3ced947761fba20186cf6246dae0d773367bbcf41c4165453215f12ff021950562784286c59f3616da57170e5aba19d91186466f3fccbb9ab8b4681e97895374fee9402cbff6cf51ce74526e5c55086b92c99b368a483f500cc0a5e0d51729042976f953f939aff7c647b0611925ad7b608ef7ffcd50c1671d1156b37e8facb036567c98a2a3ba29426f36e29fd19bc0a579b07fdb4ece0fc65065</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">This article is protected. Please enter the password.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
+
+  
+
+</article>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
+</body>
+</html>
